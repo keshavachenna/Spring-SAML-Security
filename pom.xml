@@ -10,7 +10,7 @@
 	<name>Spring Security SAML v2 sample webapp</name>
 	<description>Spring Security SAML v2 sample webapp</description>
 	<url>https://github.com/SpringSource/spring-security-saml</url>
-	<organization>
+<!--	<organization>
 		<name>SpringSource</name>
 		<url>http://springsource.org/spring-security-saml</url>
 	</organization>
@@ -50,7 +50,7 @@
 			<name>Wade Dorrell</name>
 		</contributor>
 	</contributors>
-<!-- 	<issueManagement>
+ 	<issueManagement>
 		<system>jira</system>
 		<url>http://jira.springsource.org/browse/SES</url>
 	</issueManagement>
@@ -58,8 +58,8 @@
 		<connection>scm:git:git://github.com/SpringSource/spring-security-saml</connection>
 		<developerConnection>scm:git:git://github.com/SpringSource/spring-security-saml</developerConnection>
 		<url>https://github.com/SpringSource/spring-security-saml</url>
-	</scm> -->
-	<dependencies>
+	</scm> 
+-->	<dependencies>
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>org.springframework.security.extensions</groupId>
 			<artifactId>spring-security-saml2-core</artifactId>
-			<version>1.0.2.BUILD-SNAPSHOT</version>
+			<version>1.0.2.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
